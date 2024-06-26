@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel and Adventure</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="jquery.js"></script>
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <style type="text/css">
+        .carousel-inner img {
+            width: 100%;
+            height: 500px;
+        }
+
+        #zoom:hover {
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+
+        #link:hover {
+            font-size: 25px;
+        }
+
+        .fixed-dimensions {
+            width: 100%;
+            height: 250px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- header section -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-5 col-sm-5 col-md-6 col-lg-6 col-xl-6">
+                    <img src="./Images/explore.png" class="img-fluid mx-auto" height="70" width="150">
+                </div>
+
+                <div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+                    <form class="form-inline" style="margin-top: 55px; margin-left: 60px;">
+                        <div class="input-group">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search....">
+                            <button class="btn btn-success" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active" style="border-bottom: 3px solid #77b300; font-size: 17px;"><a
+                            class="nav-link" href="index.html" style="width: 110px; text-align: center;">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="popular_destination.html"
+                            style="width: 200px; text-align: center;">POPULAR DESTINATIONS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="adventure_sports.html"
+                            style="width: 200px; text-align: center;">ADVENTURE SPORTS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="travel_tips_tricks.html"
+                            style="width: 200px; text-align: center;">TRAVEL TIPS & TRICKS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="eco_tourism.html"
+                            style="width: 200px; text-align: center;">ECO-TOURISM</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contact.html"
+                            style="width: 110px; text-align: center;">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- section section -->
+    <section>
+        <div class="container">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                    <li data-target="#demo" data-slide-to="3"></li>
+
+                </ul>
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <a href="maharashtra.html"><img src="./Images/carousel_img1.jpg" alt="maharashtra_img" width="1100"
+                                height="500"></a>
+                        <div class="carousel-caption">
+                            <h1><a href="maharashtra.html" style="color: white;">Maharashtra</a></h1>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="kerala.html"><img src="./Images/carousel_img2.jpg" alt="kerla_img"
+                                width="1100" height="500"></a>
+                        <div class="carousel-caption">
+                            <h1><a href="kerala.html" style="color: white;">Kerala</a></h1>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="uttarakhand.html"><img src="./Images/carousel_img3.jpg" alt="uttarakhand_img" width="1100"
+                                height="500"></a>
+                        <div class="carousel-caption">
+                            <h1><a href="uttarakhand.html" style="color: white;">Uttarakhand</a></h1>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="j_and_k.html"><img src="./Images/carousel_img4.jpg" alt="ladakh_img" width="1100"
+                                height="500"></a>
+                        <div class="carousel-caption">
+                            <h1><a href="j_and_k.html" style="color: white;">Jammu and Kashmir</a></h1>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div><br><br>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <h1 style="text-align: center;">- About -</h1>
+                    </div><br>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <p style="font-size: 20px; line-height: 28px; text-align: justify;">
+                            Adventure trips are all about making memories, gaining more knowledge, learning new things
+                            about the surroundings and about one’s own self and making lots of great stories. Going for
+                            an adventure camp is the best way to get all of these as it forces one to get out of their
+                            ordinary lives and try new things. <br><br>
+
+                            Adventure camp basically means spending the nights in tents and doing various activities at
+                            the camp-site. There are many activities included in camping to make it more exciting and
+                            interesting. Some of these are mentioned below: <br><br><br>
+
+                            <b>Water Activities</b>: If your camp site is near a water body then one can do aqua zorbing, water
+                            skiing, fishing, swimming, playing water volleyball and other such fun games. <br><br>
+
+                            <b>Bonfire</b>: This can be done during winter camping. Campers are made to sit surrounding the
+                            bonfire and talk about their stories or perform some acts, such as playing some instrument
+                            or singing songs. <br><br>
+
+                            <b>Rock Climbing</b>: This activity is meant to provide both physical and mental challenges to the
+                            climbers and help them in learning new skills. <br><br>
+
+                            <b>Ropes Course</b>: Ropes Course can be easily scaled up and requires relatively less investment
+                            and space. It helps campers to hone their team building ability. <br><br>
+
+                            <b>Mountain biking</b>: Just a few scratches and the trip can be memorable with new experience of
+                            driving bicycles on forest roads. <br><br>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container">
+                <br>
+                <hr><br>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a href="maharashtra.html" style="color:  #77b300;"><img id="zoom"
+                                src="./Images/murud-janjira-3881173_1920 (1).jpg" class="img-thumbnail img-fluid mx-auto d-block fixed-dimensions">
+                            <h4 id="link" style="text-align: center; color: #77b300;">Forts</h4>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a href="kerala.html" style="color:  #77b300;"><img id="zoom"
+                                src="./Images/beach-6517214_1920.jpg" class="img-thumbnail img-fluid mx-auto d-block fixed-dimensions">
+                            <h4 id="link" style="text-align: center; color:  #77b300;">Beaches
+                            </h4>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a href="j_and_k.html" style="color:  #77b300;"><img id="zoom"
+                                src="./Images/ice-climbing-1247606_1920.jpg"
+                                class="img-thumbnail img-fluid mx-auto d-block fixed-dimensions">
+                            <h4 id="link" style="text-align: center; color:  #77b300;">Mauntains</h4>
+                        </a>
+                    </div>
+                </div><br><br><br>
+
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a href="kerala.html" style="color:  #77b300;"><img id="zoom" src="./Images/village-5521554_1920.jpg"
+                                class="img-thumbnail img-fluid mx-auto d-block fixed-dimensions">
+                            <h4 id="link" style="text-align: center; color:  #77b300;">Villages</h4>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a href="uttarakhand.html" style="color:  #77b300;"><img id="zoom"
+                                src="./Images/temple-3181803_1920.jpg" class="img-thumbnail img-fluid mx-auto d-block fixed-dimensions">
+                            <h4 id="link" style="text-align: center; color:  #77b300;">Temples</h4>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a href="maharashtra.html" style="color:  #77b300;"><img id="zoom" src="./Images/gateway-3603678_1280.jpg"
+                                class="img-thumbnail img-fluid mx-auto d-block fixed-dimensions">
+                            <h4 id="link" style="text-align: center; color: #77b300;">Mumbai</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br>
+    </section><br>
+    <!-- footer section -->
+
+    <footer class="bg-dark">
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<h4>@ 2024 Travel and Adventure . All Copy Rights Reserved. </h4>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
