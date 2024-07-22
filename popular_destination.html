@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" type="image/x-icon" href="/github/travel/Images/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/github/travel/Images/favicon.png">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Travel and Adventure</title>
@@ -19,14 +19,49 @@
 	</script>
 
 	<style type="text/css">
-		#plan:hover {
+		.img-thumbnail {
+			border-radius: 20px;
+			transition: all 0.3s ease;
+		}
+
+		.img-thumbnail:hover {
+			transform: scale(1.05);
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		}
+
+		#dest:hover {
 			text-decoration: underline;
-			color: #ff471a;
 		}
 
 		#zoom:hover {
 			-webkit-transform: scaleX(-1);
 			transform: scaleX(-1);
+		}
+
+		h1,
+		h3 {
+			font-family: 'Georgia', serif;
+		}
+
+		h3 {
+			color: #77b300;
+		}
+
+		.Destination1,
+		.Destination2,
+		.bg-light {
+			border: 3px solid #77b300;
+			border-radius: 20px;
+			padding: 15px;
+			background: #fff;
+			transition: all 0.3s ease;
+		}
+
+		.Destination1:hover,
+		.Destination2:hover,
+		.bg-light:hover {
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			transform: scale(1.02);
 		}
 	</style>
 
@@ -123,11 +158,11 @@
 				</div><br>
 
 				<div class="row">
-					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
 						<div class="Destination1"
 							style="border:3px solid  #77b300; border-radius: 20px; padding: 15px 5px 5px 5px;">
 							<a href="j_and_k.html">
-								<h3 id="plan" style="text-align: center; color:  black;">Waterfall</h3>
+								<h3 id="dest" style="text-align: center; color:  black;">Waterfall</h3>
 							</a>
 							<a href="j_and_k.html"><img id="zoom" src="./Images/waterfall-6476205_1920.jpg"
 									class="img-thumbnail img-fluid mx-auto d-block" height="250" width="450"
@@ -146,7 +181,7 @@
 						<div class="Destination2"
 							style="border:3px solid  #77b300; border-radius: 20px; padding: 15px 5px 3px 5px;">
 							<a href="uttarakhand.html">
-								<h3 id="plan" style="text-align: center; color: black;"> Street at Night</h3>
+								<h3 id="dest" style="text-align: center; color: black;"> Street at Night</h3>
 							</a>
 							<a href="uttarakhand.html"><img id="zoom" src="./Images/city-6818066_1920.jpg"
 									class="img-thumbnail img-fluid mx-auto d-block" height="250" width="450"
@@ -177,7 +212,7 @@
 					</div><br>
 
 					<div class="row">
-						<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+						<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3">
 							<div style="border:3px solid  #77b300; border-radius: 20px; " class="bg-light">
 								<h3
 									style="text-align: center; border-bottom: 3px solid  #77b300; border-radius: 20px; padding-top: 10px; padding-bottom: 10px; ">
@@ -197,7 +232,7 @@
 							</div>
 						</div>
 
-						<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+						<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3">
 							<div style="border:3px solid  #77b300; border-radius: 20px;" class="bg-light">
 								<h3
 									style="text-align: center; border-bottom: 3px solid  #77b300; border-radius: 20px; padding-top: 10px; padding-bottom: 10px; ">
